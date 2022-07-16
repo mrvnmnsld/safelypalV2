@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<widget id="com.safewallet.safelypal" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<!-- <widget id="com.wallet.safelypalsecurity" version="1.8.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> -->
+
+    <name>Safelypal</name>
+        <description>Earn Crypto Now!</description>
+        <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+            SafelyPal Developers
+        </author>
+        <!-- <content src="index.html" />1 -->
+        <!-- <content src="https://www.testingcenter.xyz/cameraTest" /> -->
+        <!-- <content src="http://192.168.0.194/cryptoWallet" /> -->
+        <!-- <content src="https://www.testingcenter.xyz" /> -->
+        <!-- <content src="http://www.testingcenter.xyz/test-account" /> -->
+        <!-- <content src="http://test-account.testingcenter.xyz" /> -->
+
+        <!-- <content src="http://wallet.safelypal.com" /> -->
+
+        <!-- <content src="http://testingcenter.xyz" /> -->
+        <content src="http://safewallet.safelypal.com" />
+
+        <plugin name="cordova-plugin-whitelist" source="npm" />
+
+        <allow-navigation href="http://192.168.0.194/cryptoWallet/*" />
+        <allow-intent href="http://192.168.0.194/cryptoWallet/*" />
+        <access origin="http://192.168.0.194/cryptoWallet/*" />
+
+        <!-- safetypal -->
+            <allow-navigation href="http://wallet.safelypal.com/*" subdomains="true"/>
+            <allow-intent href="http://wallet.safelypal.com/*" subdomains="true"/>
+            <access origin="http://wallet.safelypal.com/*" subdomains="true"/>
+
+            <allow-navigation href="https://wallet.safelypal.com/*" subdomains="true"/>
+            <allow-intent href="https://wallet.safelypal.com/*" subdomains="true"/>
+            <access origin="https://wallet.safelypal.com/*" subdomains="true"/>
+
+            <allow-navigation href="http://safelypal.com/*" subdomains="true"/>
+            <allow-intent href="http://safelypal.com/*" subdomains="true"/>
+            <access origin="http://safelypal.com/*" subdomains="true"/>
+
+            <allow-navigation href="https://safelypal.com/*" subdomains="true"/>
+            <allow-intent href="https://safelypal.com/*" subdomains="true"/>
+            <access origin="https://safelypal.com/*" subdomains="true"/>
+
+            <allow-navigation href="http://safewallet.safelypal.com/*" subdomains="true"/>
+            <allow-intent href="http://safewallet.safelypal.com/*" subdomains="true"/>
+            <access origin="http://safewallet.safelypal.com/*" subdomains="true"/>
+        <!-- safetypal -->
+
+        <!-- testing center -->
+            <allow-navigation href="http://test-account.testingcenter.xyz/*" subdomains="true"/>
+            <allow-intent href="http://test-account.testingcenter.xyz/*" subdomains="true"/>
+            <access origin="http://test-account.testingcenter.xyz/*" subdomains="true"/>
+
+            <allow-navigation href="https://testingcenter.xyz/test-account/*" subdomains="true"/>
+            <allow-intent href="https://testingcenter.xyz/test-account/*" subdomains="true"/>
+            <access origin="https://testingcenter.xyz/test-account/*" subdomains="true"/>
+
+            <allow-navigation href="http://testingcenter.xyz/test-account/*" subdomains="true"/>
+            <allow-intent href="http://testingcenter.xyz/test-account/*" subdomains="true"/>
+            <access origin="http://testingcenter.xyz/test-account/*" subdomains="true"/>
+
+            <allow-navigation href="https://testingcenter.xyz/*" subdomains="true"/>
+            <allow-intent href="https://testingcenter.xyz/*" subdomains="true"/>
+            <access origin="https://testingcenter.xyz/*" subdomains="true"/>
+
+            <allow-navigation href="https://testingcenter.xyz/*" subdomains="true"/>
+            <allow-intent href="https://testingcenter.xyz/*" subdomains="true"/>
+            <access origin="https://testingcenter.xyz/*" subdomains="true"/>
+
+            <allow-navigation href="http://testingcenter.xyz/*" subdomains="true"/>
+            <allow-intent href="http://testingcenter.xyz/*" subdomains="true"/>
+            <access origin="http://testingcenter.xyz/*" subdomains="true"/>
+
+            <allow-navigation href="http://www.testingcenter.xyz/*" subdomains="true"/>
+            <allow-intent href="http://www.testingcenter.xyz/*" subdomains="true"/>
+            <access origin="http://www.testingcenter.xyz/*" subdomains="true"/>
+
+            
+        <!-- testing center -->
+
+
+        <allow-navigation href="https://cdn.jsdelivr.net/*" />
+        <allow-intent href="https://cdn.jsdelivr.net/*" />
+        <access origin="https://cdn.jsdelivr.net/*" />
+
+        <allow-navigation href="https://www.youtube.com/*" />
+        <allow-intent href="https://www.youtube.com/*" />
+        <access origin="https://www.youtube.com/*" />
+
+        <allow-navigation href="https://source.unsplash.com/*" />
+        <allow-intent href="https://source.unsplash.com/*" />
+        <access origin="https://source.unsplash.com/*" />
+
+        <allow-navigation href="https://images.unsplash.com/*" />
+        <allow-intent href="https://images.unsplash.com/*" />
+        <access origin="https://images.unsplash.com/*" />
+
+        <allow-navigation href="https://googleads.g.doubleclick.net/*" />
+        <allow-intent href="https://googleads.g.doubleclick.net/*" />
+        <access origin="https://googleads.g.doubleclick.net/*" />
+
+        <allow-navigation href="https://jnn-pa.googleapis.com/*" />
+        <allow-intent href="https://jnn-pa.googleapis.com/*" />
+        <access origin="https://jnn-pa.googleapis.com/*" />
+
+        <allow-navigation href="https://api.ipify.org/*" />
+        <allow-intent href="https://api.ipify.org/*" />
+        <access origin="https://api.ipify.org/*" />
+
+        <allow-navigation href="http://testingcenter.com/*" />
+        <allow-intent href="http://testingcenter.com/*" />
+        <access origin="http://testingcenter.com/*" />
+
+        <allow-navigation href="https://picsum.photos/*" />
+        <allow-intent href="https://picsum.photos/*" />
+        <access origin="https://picsum.photos/*" />
+
+        <allow-navigation href="https://api.ipify.org/*" />
+        <allow-intent href="https://api.ipify.org/*" />
+        <access origin="https://api.ipify.org/*" />
+
+        <allow-navigation href="https://cdnjs.cloudflare.com/*" />
+        <allow-intent href="https://cdnjs.cloudflare.com/*" />
+        <access origin="https://cdnjs.cloudflare.com/*" />
+
+        <allow-navigation href="https://cdn.datatables.net/*" />
+        <allow-intent href="https://cdn.datatables.net/*" />
+        <access origin="https://cdn.datatables.net/*" />
+
+        <allow-navigation href="https://www.paypal.com/*" />
+        <allow-intent href="https://www.paypal.com/*" />
+        <access origin="https://www.paypal.com/*" />
+
+        <allow-navigation href="https://fonts.googleapis.com/*" />
+        <allow-intent href="https://fonts.googleapis.com/*" />
+        <access origin="https://fonts.googleapis.com/*" />
+
+        <allow-navigation href="https://use.fontawesome.com/*" />
+        <allow-intent href="https://use.fontawesome.com/*" />
+        <access origin="https://use.fontawesome.com/*" />
+
+        <allow-navigation href="https://fonts.gstatic.com/*" />
+        <allow-intent href="https://fonts.gstatic.com/*" />
+        <access origin="https://fonts.gstatic.com/*" />
+
+        <allow-navigation href="https://sandbox.paypal.com/*" />
+        <allow-intent href="https://sandbox.paypal.com/*" />
+        <access origin="https://sandbox.paypal.com/*" />
+
+        <allow-navigation href="https://www.sandbox.paypal.com/*" />
+        <allow-intent href="https://www.sandbox.paypal.com/*" />
+        <access origin="https://www.sandbox.paypal.com/*" />
+
+        <allow-navigation href="https://www.paypalobjects.com/*" />
+        <allow-intent href="https://www.paypalobjects.com/*" />
+        <access origin="https://www.paypalobjects.com/*" />
+
+        <allow-navigation href="https://api.binance.com/*" />
+        <allow-intent href="https://api.binance.com/*" />
+        <access origin="https://api.binance.com/*" />
+
+        <allow-navigation href="https://s3.tradingview.com/*" />
+        <allow-intent href="https://s3.tradingview.com/*" />
+        <access origin="https://s3.tradingview.com/*" />
+
+        <allow-navigation href="https://s.tradingview.com/*" />
+        <allow-intent href="https://s.tradingview.com/*" />
+        <access origin="https://s.tradingview.com/*" />
+
+
+        <allow-navigation href="https://s3.amazonaws.com/*" />
+        <allow-intent href="https://s3.amazonaws.com/*" />
+        <access origin="https://s3.amazonaws.com/*" />
+
+
+        <allow-navigation href="https://www.googletagmanager.com/*" />
+        <allow-intent href="https://www.googletagmanager.com/*" />
+        <access origin="https://www.googletagmanager.com/*" />
+
+        <allow-navigation href="https://telemetry.tradingview.com/*" />
+        <allow-intent href="https://telemetry.tradingview.com/*" />
+        <access origin="https://telemetry.tradingview.com/*" />
+
+        <allow-navigation href="https://widgets.cryptocompare.com/*" />
+        <allow-intent href="https://widgets.cryptocompare.com/*" />
+        <access origin="https://widgets.cryptocompare.com/*" />
+
+        <allow-navigation href="https://www.cryptocompare.com/*" />
+        <allow-intent href="https://www.cryptocompare.com/*" />
+        <access origin="https://www.cryptocompare.com/*" />
+
+        <allow-navigation href="https://images.cryptocompare.com/*" />
+        <allow-intent href="https://images.cryptocompare.com/*" />
+        <access origin="https://images.cryptocompare.com/*" />
+
+        <allow-navigation href="https://www.w3schools.com/*" />
+        <allow-intent href="https://www.w3schools.com/*" />
+        <access origin="https://www.w3schools.com/*" />
+
+        <allow-navigation href="http://translate.google.com/*" />
+        <allow-intent href="http://translate.google.com/*" />
+        <access origin="http://translate.google.com/*" />
+
+        <allow-navigation href="https://translate.googleapis.com/*" />
+        <allow-intent href="https://translate.googleapis.com/*" />
+        <access origin="https://translate.googleapis.com/*" />
+
+        <allow-navigation href="https://www.gstatic.com/*" />
+        <allow-intent href="https://www.gstatic.com/*" />
+        <access origin="https://www.gstatic.com/*" />
+
+        <allow-navigation href="https://translate-pa.googleapis.com/*" />
+        <allow-intent href="https://translate-pa.googleapis.com/*" />
+        <access origin="https://translate-pa.googleapis.com/*" />
+
+        
+        
+        
+        
+
+        <allow-intent href="http://*/*" />
+        <allow-intent href="https://*/*" />
+
+        <platform name="android">    
+            <icon src="assets/logo.png"/>
+
+            <!-- <splash density="land-hdpi" src="res/screen/android/screen-hdpi-landscape.png" />
+            <splash density="land-ldpi" src="res/screen/android/screen-ldpi-landscape.png" />
+            <splash density="land-mdpi" src="res/screen/android/screen-mdpi-landscape.png" />
+            <splash density="land-xhdpi" src="res/screen/android/screen-xhdpi-landscape.png" /> -->
+            <splash src="assets/splash.png" />
+            <splash density="hdpi" src="assets/480x800px.jpg" />
+            <splash density="ldpi" src="assets/200x320px.jpg" />
+            <splash density="mdpi" src="assets/320x480.jpg" />
+            <splash density="xhdpi" src="assets/720x1280px.jpg" />
+        </platform>
+
+        <preference name="android-targetSdkVersion" value="30"/>
+        <!-- <application android:usesCleartextTraffic="true" /> -->
+
+
+        <preference name="NavigationBarBackgroundColor" value="#5426de" />
+        <plugin name="cordova-plugin-navigationbar-color" spec="0.0.8" />
+        <preference name="StatusBarOverlaysWebView" value="false" />
+        <preference name="StatusBarBackgroundColor" value="#5426de" />
+</widget>
